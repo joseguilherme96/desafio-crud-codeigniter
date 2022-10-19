@@ -1,0 +1,1198 @@
+CRITICAL - 2022-10-16 09:36:36 --> Array to string conversion
+in APPPATH\Views\formularios\formulario.php on line 34.
+ 1 APPPATH\Views\formularios\formulario.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\formularios\\formulario.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\formularios\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('formularios/formulario', [], true)
+ 5 APPPATH\Controllers\Pages.php(139): view('formularios/formulario')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->editarCadastro()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:05:36 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH\\public', '1665932735_9560c8f4c44866641cf2.jpg')
+ 3 APPPATH\Controllers\Pages.php(60): CodeIgniter\HTTP\Files\UploadedFile->store('../../public/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:10:45 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH\\public', '1665933045_08e15b4d3ac7b2f8ce44.jpg')
+ 3 APPPATH\Controllers\Pages.php(60): CodeIgniter\HTTP\Files\UploadedFile->store('../../public/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:11:41 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH\\public', '1665933101_07b490418532888800ab.jpg')
+ 3 APPPATH\Controllers\Pages.php(60): CodeIgniter\HTTP\Files\UploadedFile->store('../../public/')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:24:28 --> Undefined variable: mensagem
+in APPPATH\Controllers\Pages.php on line 97.
+ 1 APPPATH\Controllers\Pages.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mensagem', 'APPPATH\\Controllers\\Pages.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:39:19 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(101): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:39:25 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\formularios\formulario.php(34): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\formularios\\formulario.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('formularios/formulario', [], true)
+ 7 APPPATH\Controllers\Pages.php(141): view('formularios/formulario')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->editarCadastro()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:39:32 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(101): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:40:20 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(101): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:40:47 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(101): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:41:37 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:41:45 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:41:45 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:41:58 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:42:31 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:43:07 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:43:46 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:46:24 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:47:46 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 10:55:14 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 11:03:15 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(99): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 11:23:55 --> Undefined variable: nomeImagem
+in APPPATH\Controllers\Pages.php on line 86.
+ 1 APPPATH\Controllers\Pages.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nomeImagem', 'APPPATH\\Controllers\\Pages.php', 86, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 11:25:25 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\tabelas\dadosPessoa.php(17): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tabelas\\dadosPessoa.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tabelas/dadosPessoa', [], true)
+ 7 APPPATH\Controllers\Pages.php(101): view('tabelas/dadosPessoa')
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 12:10:37 --> Undefined variable: file
+in APPPATH\Controllers\Upload.php on line 58.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Upload.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 12:10:41 --> Undefined variable: file
+in APPPATH\Controllers\Upload.php on line 58.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Upload.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 12:42:54 --> Undefined variable: file
+in APPPATH\Controllers\Upload.php on line 58.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Upload.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 12:43:13 --> Undefined variable: file
+in APPPATH\Controllers\Upload.php on line 58.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Upload.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 13:57:17 --> Undefined property: App\Controllers\Upload::$load
+in APPPATH\Controllers\Upload.php on line 66.
+ 1 APPPATH\Controllers\Upload.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Upload::$load', 'APPPATH\\Controllers\\Upload.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 13:57:31 --> Undefined property: App\Controllers\Upload::$load
+in APPPATH\Controllers\Upload.php on line 66.
+ 1 APPPATH\Controllers\Upload.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Upload::$load', 'APPPATH\\Controllers\\Upload.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 13:57:48 --> Undefined property: App\Controllers\Upload::$load
+in APPPATH\Controllers\Upload.php on line 66.
+ 1 APPPATH\Controllers\Upload.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Upload::$load', 'APPPATH\\Controllers\\Upload.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 13:58:02 --> Undefined property: App\Controllers\Upload::$load
+in APPPATH\Controllers\Upload.php on line 66.
+ 1 APPPATH\Controllers\Upload.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Upload::$load', 'APPPATH\\Controllers\\Upload.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 13:59:09 --> Call to undefined method App\Controllers\Upload::library()
+in APPPATH\Controllers\Upload.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:11:07 --> Undefined variable: path
+in APPPATH\Controllers\Upload.php on line 58.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: path', 'APPPATH\\Controllers\\Upload.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:11:29 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 58 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:11:36 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 58 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:11:50 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 58 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:11:55 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 58 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:12:15 --> Undefined variable: path
+in APPPATH\Controllers\Upload.php on line 58.
+ 1 APPPATH\Controllers\Upload.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: path', 'APPPATH\\Controllers\\Upload.php', 58, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:12:34 --> Undefined variable: path
+in APPPATH\Controllers\Upload.php on line 6.
+ 1 APPPATH\Controllers\Upload.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: path', 'APPPATH\\Controllers\\Upload.php', 6, [...])
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Upload.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Upload.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Upload')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Upload')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Upload')
+ 7 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Upload', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:12:43 --> Class 'App\Controllers\CodeIgniter\Files\File' not found
+in APPPATH\Controllers\Upload.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Upload.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Upload')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Upload')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Upload')
+ 6 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Upload', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:12:50 --> Undefined variable: path
+in APPPATH\Controllers\Upload.php on line 6.
+ 1 APPPATH\Controllers\Upload.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: path', 'APPPATH\\Controllers\\Upload.php', 6, [...])
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Upload.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Upload.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Upload')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Upload')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Upload')
+ 7 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Upload', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:12:58 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 6 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(6): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Upload.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Upload.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Upload')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Upload')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Upload')
+ 7 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Upload', true)
+ 8 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:15:09 --> SplFileInfo::getMTime(): stat failed for \writable\uploads
+in APPPATH\Controllers\Upload.php on line 64.
+ 1 APPPATH\Controllers\Upload.php(64): SplFileInfo->getMTime()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:15:20 --> SplFileInfo::getMTime(): stat failed for uploads
+in APPPATH\Controllers\Upload.php on line 64.
+ 1 APPPATH\Controllers\Upload.php(64): SplFileInfo->getMTime()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:16:13 --> Cannot use SplFileObject with directories
+in APPPATH\Controllers\Upload.php on line 72.
+ 1 APPPATH\Controllers\Upload.php(72): SplFileInfo->openFile('w')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:17:36 --> Cannot use SplFileObject with directories
+in APPPATH\Controllers\Upload.php on line 72.
+ 1 APPPATH\Controllers\Upload.php(72): SplFileInfo->openFile('w')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:23:16 --> Undefined property: CodeIgniter\Files\File::$request
+in APPPATH\Controllers\Upload.php on line 61.
+ 1 APPPATH\Controllers\Upload.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Files\\File::$request', 'APPPATH\\Controllers\\Upload.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:23:31 --> Call to undefined method CodeIgniter\Files\File::getFile()
+in APPPATH\Controllers\Upload.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:31:26 --> is_file is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_file')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('userfile', 'Image File', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Upload.php(67): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:40:55 --> Call to a member function hasMoved() on array
+in APPPATH\Controllers\Upload.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:41:13 --> Call to a member function store() on array
+in APPPATH\Controllers\Upload.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:42:22 --> Call to a member function move() on array
+in APPPATH\Controllers\Upload.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 14:42:41 --> Call to a member function store() on array
+in APPPATH\Controllers\Upload.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:02:29 --> Array to string conversion
+in APPPATH\Controllers\Upload.php on line 61.
+ 1 APPPATH\Controllers\Upload.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Upload.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:07:22 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Upload.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:08:00 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Upload.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:08:45 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Upload.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:10:21 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Upload.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:11:01 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Upload.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:11:24 --> Call to undefined method App\Controllers\Upload::getRandomName()
+in APPPATH\Controllers\Upload.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:11:52 --> Call to undefined method App\Controllers\Upload::getRandomName()
+in APPPATH\Controllers\Upload.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:13:23 --> mkdir(): File exists
+in APPPATH\Controllers\Upload.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'APPPATH\\Controllers\\Upload.php', 57, [])
+ 2 APPPATH\Controllers\Upload.php(57): mkdir('FCPATH\\uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:15:46 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Upload.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Upload.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Upload')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Upload')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Upload')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Upload', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:16:06 --> Call to a member function move() on array
+in APPPATH\Controllers\Upload.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:16:28 --> Call to undefined method App\Controllers\Upload::move()
+in APPPATH\Controllers\Upload.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:17:26 --> Call to undefined method App\Controllers\Upload::move()
+in APPPATH\Controllers\Upload.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:17:49 --> Call to a member function move() on array
+in APPPATH\Controllers\Upload.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:18:12 --> Call to a member function move() on array
+in APPPATH\Controllers\Upload.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:20:09 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 59 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(59): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:20:13 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\Upload.php on line 59 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 43.
+ 1 APPPATH\Controllers\Upload.php(59): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Upload->uploadDocumento()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:35:07 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\UploadDoc.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:36:27 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:37:01 --> Class 'App\Controllers\App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:37:29 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:37:53 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:38:55 --> Undefined property: App\Controllers\UploadDoc::$model
+in APPPATH\Controllers\UploadDoc.php on line 18.
+ 1 APPPATH\Controllers\UploadDoc.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UploadDoc::$model', 'APPPATH\\Controllers\\UploadDoc.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:39:14 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\UploadDoc.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:39:38 --> Class 'App\Controllers\Model' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:39:55 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:42:21 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:42:44 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:43:00 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\UploadDoc->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:45:15 --> Invalid file: header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\UploadDoc.php(16): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:45:26 --> Invalid file: view/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view/header.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('view/header', [], true)
+ 3 APPPATH\Controllers\UploadDoc.php(16): view('view/header')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:45:42 --> Invalid file: vtemplates/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vtemplates/header.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('vtemplates/header', [], true)
+ 3 APPPATH\Controllers\UploadDoc.php(16): view('vtemplates/header')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:45:48 --> Undefined variable: title
+in APPPATH\Views\templates\header.php on line 16.
+ 1 APPPATH\Views\templates\header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\templates\\header.php', 16, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\UploadDoc.php(16): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:54:46 --> Undefined property: App\Controllers\UploadDoc::$load
+in APPPATH\Controllers\UploadDoc.php on line 22.
+ 1 APPPATH\Controllers\UploadDoc.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UploadDoc::$load', 'APPPATH\\Controllers\\UploadDoc.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:55:06 --> Undefined property: App\Controllers\UploadDoc::$upload
+in APPPATH\Controllers\UploadDoc.php on line 24.
+ 1 APPPATH\Controllers\UploadDoc.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UploadDoc::$upload', 'APPPATH\\Controllers\\UploadDoc.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:55:14 --> Undefined property: App\Controllers\UploadDoc::$upload
+in APPPATH\Controllers\UploadDoc.php on line 30.
+ 1 APPPATH\Controllers\UploadDoc.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UploadDoc::$upload', 'APPPATH\\Controllers\\UploadDoc.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 15:59:42 --> Undefined property: App\Controllers\UploadDoc::$upload
+in APPPATH\Controllers\UploadDoc.php on line 30.
+ 1 APPPATH\Controllers\UploadDoc.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UploadDoc::$upload', 'APPPATH\\Controllers\\UploadDoc.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:00:52 --> Undefined property: App\Controllers\UploadDoc::$load
+in APPPATH\Controllers\UploadDoc.php on line 22.
+ 1 APPPATH\Controllers\UploadDoc.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UploadDoc::$load', 'APPPATH\\Controllers\\UploadDoc.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:02:06 --> Class 'App\Controllers\Files' not found
+in APPPATH\Controllers\UploadDoc.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\UploadDoc.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadDoc')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadDoc')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\UploadDoc')
+ 6 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\UploadDoc', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:02:11 --> Class 'App\Models\File' not found
+in APPPATH\Controllers\UploadDoc.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\UploadDoc.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UploadDoc')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UploadDoc')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\UploadDoc')
+ 6 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\UploadDoc', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:23:08 --> Call to a member function move() on null
+in APPPATH\Controllers\UploadDoc.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:23:43 --> Call to a member function move() on null
+in APPPATH\Controllers\UploadDoc.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:23:51 --> Call to a member function move() on null
+in APPPATH\Controllers\UploadDoc.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:23:59 --> Call to a member function move() on null
+in APPPATH\Controllers\UploadDoc.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:24:10 --> Call to a member function move() on null
+in APPPATH\Controllers\UploadDoc.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:24:32 --> Call to a member function getClientName() on null
+in APPPATH\Controllers\UploadDoc.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:47:37 --> Call to a member function getName() on null
+in APPPATH\Controllers\Pages.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:49:06 --> Call to a member function getName() on null
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:50:10 --> Call to a member function getPost() on null
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:51:03 --> Call to undefined function App\Controllers\controller()
+in APPPATH\Controllers\Pages.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:52:04 --> Call to a member function getPost() on null
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:52:49 --> Class 'App\Controllers\CodeIgniter\Controller' not found
+in APPPATH\Controllers\Pages.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:53:03 --> Class 'App\Controllers\CodeIgniter\Controller' not found
+in APPPATH\Controllers\Pages.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:55:05 --> Call to undefined function App\Controllers\controller()
+in APPPATH\Controllers\Pages.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:55:26 --> Call to a member function getPost() on null
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:57:13 --> Call to a member function getPost() on null
+in APPPATH\Controllers\Pages.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:57:28 --> Call to a member function getPost() on null
+in APPPATH\Controllers\Pages.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 16:59:58 --> Class 'App\Controllers\BaseControllerController' not found
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pages.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Pages')
+ 6 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Pages', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:00:31 --> Class 'BaseController' not found
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pages.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Pages')
+ 6 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Pages', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:16:56 --> Call to a member function move() on null
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:17:52 --> Call to a member function getFile() on null
+in APPPATH\Controllers\Pages.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:18:18 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Pages.php on line 64.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Pages')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Pages', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:21:52 --> Call to a member function move() on null
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:22:15 --> Undefined variable: UploadDoc
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 APPPATH\Controllers\Pages.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: UploadDoc', 'APPPATH\\Controllers\\Pages.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:23:05 --> Undefined variable: UploadDoc
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 APPPATH\Controllers\Pages.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: UploadDoc', 'APPPATH\\Controllers\\Pages.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:23:27 --> Class 'CodeIgniter\Controller\UploadDoc' not found
+in APPPATH\Controllers\Pages.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:23:59 --> Class 'CodeIgniter\Controllers\UploadDoc' not found
+in APPPATH\Controllers\Pages.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:24:42 --> Undefined variable: UploadDoc
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 APPPATH\Controllers\Pages.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: UploadDoc', 'APPPATH\\Controllers\\Pages.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:25:14 --> Undefined variable: UploadDoc
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 APPPATH\Controllers\Pages.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: UploadDoc', 'APPPATH\\Controllers\\Pages.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:25:33 --> Undefined variable: UploadDoc
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 APPPATH\Controllers\Pages.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: UploadDoc', 'APPPATH\\Controllers\\Pages.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:25:59 --> Undefined variable: UploadDoc
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 APPPATH\Controllers\Pages.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: UploadDoc', 'APPPATH\\Controllers\\Pages.php', 67, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:26:19 --> Call to a member function getClientName() on null
+in APPPATH\Controllers\Pages.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:26:31 --> Call to a member function getClientName() on null
+in APPPATH\Controllers\Pages.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:26:59 --> Call to a member function getFile() on null
+in APPPATH\Controllers\Pages.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:27:20 --> Call to undefined method App\Controllers\UploadDoc::mover()
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:27:46 --> Call to undefined method App\Controllers\UploadDoc::getName()
+in APPPATH\Controllers\Pages.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:28:20 --> Call to a member function getPost() on null
+in APPPATH\Controllers\UploadDoc.php on line 24.
+ 1 APPPATH\Controllers\Pages.php(65): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:29:11 --> Call to a member function getPost() on null
+in APPPATH\Controllers\UploadDoc.php on line 24.
+ 1 APPPATH\Controllers\Pages.php(65): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:30:20 --> Call to a member function getFile() on null
+in APPPATH\Controllers\UploadDoc.php on line 22.
+ 1 APPPATH\Controllers\Pages.php(65): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:31:14 --> Call to a member function getFile() on null
+in APPPATH\Controllers\UploadDoc.php on line 22.
+ 1 APPPATH\Controllers\Pages.php(65): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 17:57:13 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Headers already sent. You cannot change the session module\'s ini settings at this time', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71, [...])
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\HTTP\RedirectResponse.php(76): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\Filters\CSRF.php(58): CodeIgniter\HTTP\RedirectResponse->back()
+10 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+11 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('formularios/formulario', 'before')
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-16 18:00:41 --> Too few arguments to function App\Controllers\UploadDoc::upload(), 0 passed in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\UploadDoc.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UploadDoc->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDoc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,11 @@
+CRITICAL - 2022-10-18 21:47:47 --> Call to undefined function url()
+in APPPATH\Views\templates\header.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 4 APPPATH\Controllers\Pages.php(111): view('templates/header', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->cadastrarAtualizarDados()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

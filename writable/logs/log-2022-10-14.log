@@ -1,0 +1,459 @@
+CRITICAL - 2022-10-14 17:39:11 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:44:56 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:47:10 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:48:26 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:48:57 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:50:28 --> Class 'App\Models\Mode' not found
+in APPPATH\Models\newsModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\newsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 5 [internal function]: spl_autoload_call('App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(152): class_exists('App\\Models\\NewsModel')
+ 7 SYSTEMPATH\Config\Factories.php(122): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 8 SYSTEMPATH\Config\Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 9 SYSTEMPATH\Common.php(817): CodeIgniter\Config\Factories::models('App\\Models\\NewsModel', [...], null)
+10 APPPATH\Controllers\News.php(25): model('App\\Models\\NewsModel')
+11 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:51:36 --> Invalid file: news/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/view.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('news/view', [], true)
+ 3 APPPATH\Controllers\News.php(36): view('news/view')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view('elvis-sighted')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 17:57:25 --> Error connecting to the database: ErrorException: Uninitialized string offset: 0 in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:82
+Stack trace:
+#0 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\wamp64\\www\\A...', 82, Array)
+#1 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\News.php(14): App\Models\newsModel->getNews()
+#8 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\News->index()
+#9 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\AVM-Sistemas-Desafio-1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\wamp64\\www\\A...')
+#13 {main}
+CRITICAL - 2022-10-14 17:57:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Uninitialized string offset: 0
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(14): App\Models\newsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 18:00:03 --> mysqli_sql_exception: No database selected in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\News.php(14): App\Models\newsModel->getNews()
+#8 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\News->index()
+#9 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\AVM-Sistemas-Desafio-1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\wamp64\\www\\A...')
+#13 {main}
+CRITICAL - 2022-10-14 18:00:03 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `news`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `news`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `news`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\News.php(14): App\Models\newsModel->getNews()
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 18:00:28 --> mysqli_sql_exception: No database selected in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\News.php(14): App\Models\newsModel->getNews()
+#8 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\News->index()
+#9 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\AVM-Sistemas-Desafio-1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\wamp64\\www\\A...')
+#13 {main}
+CRITICAL - 2022-10-14 18:00:28 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `news`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `news`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `news`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\News.php(14): App\Models\newsModel->getNews()
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 18:00:47 --> mysqli_sql_exception: No database selected in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\News.php(14): App\Models\newsModel->getNews()
+#8 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\News->index()
+#9 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\AVM-Sistemas-Desafio-1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\wamp64\\www\\A...')
+#13 {main}
+CRITICAL - 2022-10-14 18:00:47 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `news`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `news`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `news`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\News.php(14): App\Models\newsModel->getNews()
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 18:01:34 --> mysqli_sql_exception: No database selected in C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\AVM-Sistemas-Desafio-1\app\Controllers\News.php(14): App\Models\newsModel->getNews()
+#8 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(902): App\Controllers\News->index()
+#9 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\AVM-Sistemas-Desafio-1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\AVM-Sistemas-Desafio-1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\wamp64\\www\\A...')
+#13 {main}
+CRITICAL - 2022-10-14 18:01:34 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `news`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `news`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `news`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\newsModel.php(13): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\News.php(14): App\Models\newsModel->getNews()
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 18:04:58 --> Invalid file: news/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/view.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('news/view', [], true)
+ 3 APPPATH\Controllers\News.php(36): view('news/view')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view('elvis-sighted')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 18:05:49 --> Invalid file: news/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/view.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('news/view', [], true)
+ 3 APPPATH\Controllers\News.php(36): view('news/view')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->view('elvis-sighted')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 18:44:15 --> Undefined variable: title
+in APPPATH\Views\templates\header.php on line 8.
+ 1 APPPATH\Views\templates\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\templates\\header.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 18:44:35 --> Undefined variable: title
+in APPPATH\Views\templates\header.php on line 8.
+ 1 APPPATH\Views\templates\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\templates\\header.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 18:44:41 --> Undefined variable: title
+in APPPATH\Views\templates\header.php on line 8.
+ 1 APPPATH\Views\templates\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\templates\\header.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 18:45:12 --> Undefined variable: title
+in APPPATH\Views\templates\header.php on line 8.
+ 1 APPPATH\Views\templates\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\templates\\header.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\News->create()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 19:53:24 --> Undefined variable: title
+in APPPATH\Views\templates\header.php on line 14.
+ 1 APPPATH\Views\templates\header.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\templates\\header.php', 14, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(25): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:14:04 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+in APPPATH\Controllers\Pages.php on line 28.
+ 1 APPPATH\Controllers\Pages.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getMethod', 'APPPATH\\Controllers\\Pages.php', 28, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:15:21 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:16:01 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:17:42 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:18:21 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:20:07 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:20:38 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:23:57 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 APPPATH\Controllers\Pages.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 30, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:25:29 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 31.
+ 1 APPPATH\Controllers\Pages.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 31, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:25:52 --> Undefined variable: model
+in APPPATH\Controllers\Pages.php on line 31.
+ 1 APPPATH\Controllers\Pages.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pages.php', 31, [])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:27:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Pages.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:27:27 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Pages.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:27:57 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Pages.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:28:47 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Pages.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:29:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Pages.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:29:32 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 728.
+ 1 SYSTEMPATH\BaseModel.php(728): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Pages.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pages->createFormCadastro()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
