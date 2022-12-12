@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 17-Out-2022 às 00:29
+-- Tempo de geração: 12-Dez-2022 às 15:41
 -- Versão do servidor: 5.7.31
 -- versão do PHP: 7.4.9
 
@@ -60,16 +60,14 @@ CREATE TABLE IF NOT EXISTS `pessoa` (
   `imagem` varchar(100) DEFAULT NULL,
   `documento` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=75 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=82 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `pessoa`
 --
 
 INSERT INTO `pessoa` (`id`, `nome`, `cpf`, `cep`, `imagem`, `documento`) VALUES
-(74, 'Fernando Noronha', '664.000.444-32', '33222-000', '1665961599_57e7d3cc04e2f167d82b.jpg', 'G200_01.pdf'),
-(73, 'Hust Holf', '444.332.333-44', '12222-000', '1665961426_a1df7c1897d441c7fd28.jpg', 'Fernao-Capelo-Gaivota.pdf'),
-(72, 'José Guilherme', '664.000.444-33', '88830-00', '1665961088_b372fc2154a48f235544.jpg', '2014-cartilha-inova.pdf');
+(81, 'Jason Statham', '112.122.211-23', '12021-111', '1670858471_1095c65184dd381f165e.jpg', 'VHStoDVD3UserGuide_1.pdf');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
