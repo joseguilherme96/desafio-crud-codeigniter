@@ -2,7 +2,7 @@
 Formulario para cadastro, atualização e exclusão dos dados de uma pessoa. Junto com o formulário o usuário não só pode cadastrar seus dados básicos como nome, cpf, como também pode fazer upload de um documento pdf e uma foto.
 Conta também com um cadastro de noticias baseado na própria documentação do CodeIgniter.
 
-## Como o projeto Surgiu
+## Como o surgiu o projeto
 O projeto surgiu com uma entrevista de emprego para uma determinada empresa, depois que me apresentaram a empresa, o recrutador propôs que eu fizesse este formulario utilizando o framework CodeIgniter.
 
 ## Tecnologias Utilizadas
