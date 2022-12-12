@@ -36,6 +36,7 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+$routes->get('home','Pages::index');
 $routes->get('camera','Pages::capturar');
 $routes->get('upload','Upload::index'); 
 $routes->post('upload/upload','Upload::upload');

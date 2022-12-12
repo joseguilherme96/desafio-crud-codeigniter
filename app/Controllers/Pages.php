@@ -12,7 +12,8 @@ class Pages extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $data['title']='Formulario';
+        return view ('templates/header',$data);
     }
     
     public function view($page='home')
