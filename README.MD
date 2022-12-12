@@ -25,6 +25,8 @@ O projeto surgiu com uma entrevista de emprego para uma determinada empresa, dep
 
 * Execute um servidor para o banco de dados
 
+* Pagina inicial do projeto http://localhost:8080/home
+
 Os procedimentos podem mudar de acordo com as configurações feitas.
 
 
